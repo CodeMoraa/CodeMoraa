@@ -1,0 +1,41 @@
+.sttyleul {
+  list-style-type: none;
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 15px;
+  display: inline-block;
+  font-size: 30px;
+}
+nav li a:hover {
+  background-color: wheat;
+}
+.homepage {
+  background-image: url(./391753.png);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hrtext {
+  text-align: center;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.button {
+  background-color: turquoise;
+  width: 60%;
+  padding: 14px 20px;
+  border-radius: 12px;
+}

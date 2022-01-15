@@ -1,0 +1,27 @@
+.styleurl {
+  list-style-type: none;
+  background-color: burlywood;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 15px;
+  display: block;
+}
+nav li a:hover {
+  background-color: turquoise;
+}
+
+.homepage {
+  background-image: url(../Css/images/2.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h3>Fill in this form</h3>
+    <form action="#">
+      <div>
+        <label>full name</label> <br />
+        <input
+          class="inputstyle"
+          type="text"
+          name="fname"
+          placeholder="lilian"
+        />
+      </div>
+
+      <div>
+        <label>second name</label> <br />
+        <input
+          class="inputstyle"
+          type="text"
+          name="sname"
+          placeholder="moraa"
+        />
+      </div>
+
+      <div>
+        <label>phone number</label> <br />
+        <input
+          class="inputstyle"
+          type="tel"
+          name="pnumber"
+          placeholder="+254792760689"
+        />
+      </div>
+
+      <div>
+        <label>github link</label> <br />
+        <input
+          class="inputstyle"
+          type="url"
+          name="github"
+          placeholder="www.github.com"
+        />
+      </div>
+
+      <div>
+        <label>date of birth</label> <br />
+        <input class="inputstyle" type="date" name="dob" />
+      </div>
+
+      <div>
+        <label>location</label>
+        <select class="inputstyle" name="location"></select>
+        <option value="nairobi">nairobi</option>
+        <option value="kisumu">kisumu</option>
+        <option value="nakuru">nakuru</option>
+        <option value="mombasa">mombasa</option>
+      </div>
+
+      <div>
+        <label>gender</label> <br />
+        <input type="radio" name="gender" value="female" />
+        <label>female</label>
+
+        <label>gender</label> <br />
+        <input type="radio" name="gender" value="male" />
+        <label>male</label>
+
+        <label>gender</label> <br />
+        <input type="radio" name="gender" value="other" />
+        <label>other</label>
+      </div>
+
+      <div>
+        <label>stack</label> <br />
+        <input type="checkbox" name="stack" value="frontend" />
+        <label>front end</label> <br />
+        <input type="checkbox" name="stack" value="backend" />
+        <label>back end</label> <br />
+        <input type="checkbox" name="stack" value="fullstack" />
+        <label>full stack</label> <br />
+      </div>
+
+      <div>
+        <label> any other information</label>
+        <textarea name="aoi" cols="30" rows="10"></textarea>
+      </div>
+
+      <div>
+        <input id="the button" type="submit" value="submit" />
+      </div>
+    </form>
+  </body>
+</html>
